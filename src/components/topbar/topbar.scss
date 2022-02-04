@@ -7,8 +7,8 @@
     color: $mainColor;
     position: fixed;
     top: 0;
-    z-index: 2; //allows us to see the topbar when scrolling through pages
-
+    z-index: 3; //allows us to see the topbar when scrolling through pages
+    transition: all 1s ease;
 
 .wrapper{
     padding:10px 30px;
