@@ -1,11 +1,11 @@
 @import "../../global.scss";
 
-.portfolio{
-    background-color:white;
+.portfolio {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+  
     h1{
         font-size: 50px;
     }
@@ -16,19 +16,7 @@
         list-style: none;
         display: flex;
 
-        li{
-            font-size: 14px;
-            margin-right: 50px;
-            border-radius: 10px;
-            padding: 7px;
-            cursor: pointer;
-
-            &.active{
-                background-color: $mainColor;
-                color: white;
-
-            }
-        }
+       
 
     }
 

@@ -1,9 +1,18 @@
+@import "../../global.scss";
+
+
 .intro{
     background-color:white;
     display: flex;
 
+@include mobile{
+    flex-direction: column;
+    align-items: center;
+
+}
+
     .left{
-flex: 0.5;
+        flex: 0.5;
 overflow: hidden;
 
         .imgContainer{
@@ -15,15 +24,26 @@ overflow: hidden;
             align-items: center;
             justify-content: center;
 
+            // @include mobile{
+            //     align-items: flex-start;
+            // }
+
+
+
             img{
                 width: 90%;
-
+                // @include mobile{
+                //     height: 50%;
+                // }
             }
         }
     }
 
     .right{
 
+
+        flex: 0.5;
+        position: relative;
         .wrapper{
             width: 100%;
             height: 100%;
@@ -65,7 +85,7 @@ overflow: hidden;
               
           }
       }
-        flex: 0.5;
+       
         background-color:white;
     }
 }

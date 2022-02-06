@@ -69,14 +69,14 @@
             
             &:first-child{
                 background-color: white;
-                transform: rotate(45deg);
+                // transform: rotate(45deg);
             }
             &:nth-child(2){
                 opacity: 0;
             }
             &:last-child{
                 background-color: white;
-               transform:  rotate(-45deg);
+            //    transform:  rotate(-45deg);
             }
         }
     }
