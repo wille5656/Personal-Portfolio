@@ -19,7 +19,7 @@ export default function App() {
               <Intro/>
               <AboutMe/>
               <Portfolio/>
-              <Works/>
+              {/* <Works/> */}
               <Contact/>
 
           </div>
