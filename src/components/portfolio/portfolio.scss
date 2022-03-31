@@ -41,8 +41,15 @@
     position: relative;
     transition: all 0.5 ease;
     cursor: pointer;
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/15/14/54/download-1459071_960_720.png");
+    background-repeat: no-repeat;
+ background-size: 210px 150px;
 
-
+ 
+        button{
+      font-size: 20px;
+      font-weight: 800;
+        }
         h3{
             position: absolute;
             font-size: 20px;
@@ -61,6 +68,30 @@
             }
         }
 }
+.item-2{ 
+    width: 220px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    transition: all 0.5 ease;
+    cursor: pointer;
+    background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+background-repeat: no-repeat;
+ background-size: 210px 150px;
+
+
+    button{
+        font-size: 20px;
+        font-weight: 800;
+        color:black;
+    }
+    }
 
     }
 }

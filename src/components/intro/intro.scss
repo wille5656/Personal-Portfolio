@@ -40,10 +40,9 @@ overflow: hidden;
     }
 
     .right{
-
-
         flex: 0.5;
         position: relative;
+        
         .wrapper{
             width: 100%;
             height: 100%;
@@ -52,6 +51,7 @@ overflow: hidden;
             flex-direction: column;
             justify-content: center;
 
+            
             h1{
                 font-size: 60px;
                 margin: 10px 0;
@@ -65,8 +65,15 @@ overflow: hidden;
                 span{
                     font-size: inherit;
                     color:  lightgreen;
+                    
+                    
                 }
+                .about-me-options{
+                    display: flex;
+                        margin: 0 0 0 30px;
+                        }
             }
+           
       }
 
       a{
@@ -88,4 +95,6 @@ overflow: hidden;
        
         background-color:white;
     }
-}
+    
+    
+    }

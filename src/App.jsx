@@ -6,6 +6,7 @@ import Works from './components/works/Works'
 import './app.scss'
 import {useState} from "react"
 import Menu from './components/menu/Menu'
+import AboutMe from './components/aboutMe/AboutMe'
 
 export default function App() {
 
@@ -16,9 +17,11 @@ export default function App() {
           <Menu menuOpen = {menuOpen} setMenuOpen={setMenuOpen}/>
           <div className="sections">
               <Intro/>
+              <AboutMe/>
               <Portfolio/>
               <Works/>
               <Contact/>
+
           </div>
         </div>
     )

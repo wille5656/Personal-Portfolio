@@ -9,7 +9,7 @@
     top: 0;
     z-index: 3; //allows us to see the topbar when scrolling through pages
     transition: all 1s ease;
-
+overflow: hidden;
 .wrapper{
     padding:10px 30px;
     display: flex;
