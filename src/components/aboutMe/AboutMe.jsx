@@ -7,15 +7,10 @@ export default function AboutMe() {
             
             <div className="container">
                 <div className="wrapper">
-                <div className='colz'>
-                        
-
-                         
-                        
-                    </div>
+                
                     < div className='about-me-options'>
                         <h1>Get to Know Me!</h1>
-                        <p>Hello, my name is Will Edwards and I am currently a senior at CUNY College of Staten Island. My work mainly focuses on Front end Developement and Design. I am experienced in using web development tools, and also interested in a position where I can help support web application development.</p>
+                        <p>Hello, my name is Will Edwards and I am currently a senior at CUNY College of Staten Island. My work mainly focuses on Frontend Developement and Design. I am experienced in using web development tools, and also interested in a position where I can help support web application development. You can get in touch with me via social media by clicking an icon below.</p>
                         
                         
                         <a href='https://www.instagram.com/willedwards00/'>
