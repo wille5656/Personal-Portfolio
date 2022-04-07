@@ -1,7 +1,7 @@
 import PortfolioList from '../portfolioList/PortfolioList'
 import './portfolio.scss'
 import { useState } from 'react'
-import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio } from "../../data"
+// import  featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio  from "../../data"
 import { useEffect } from 'react'
 
 
@@ -32,22 +32,22 @@ export default function Portfolio() {
   ];
 
 
-  useEffect(() => {
-    switch (selected) {
-      case "featured": setData(featuredPortfolio);
-        break;
-      // case"web": setData(webPortfolio);
-      // break;
-      // case"mobile": setData(mobilePortfolio);
-      // break;
-      // case"design": setData(designPortfolio);
-      // break;
-      // case"content": setData(contentPortfolio);
-      // break;
-      default: setData(featuredPortfolio)
+  // // useEffect(() => {
+  // //   switch (selected) {
+  // //     case "featured": setData(featuredPortfolio);
+  // //       break;
+  // //     // case"web": setData(webPortfolio);
+  // //     // break;
+  // //     // case"mobile": setData(mobilePortfolio);
+  // //     // break;
+  // //     // case"design": setData(designPortfolio);
+  // //     // break;
+  // //     // case"content": setData(contentPortfolio);
+  // //     // break;
+  // //     default: setData(featuredPortfolio)
 
-    }
-  }, [selected])
+  // //   }
+  // }, [selected])
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
